@@ -1,0 +1,136 @@
+*{
+    font-family: "Poppins", sans-serif;
+   /* background-color: black; */
+}
+.Title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+    
+}
+.Title >img{
+    width:3rem;
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+    
+
+}
+
+.nav-items > ul >li{
+   padding: 1rem;
+   
+    
+
+}
+
+.body-items{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.cards{
+    height: 37rem;
+    width:15rem;
+    padding:0.5rem;
+    overflow-wrap:break-word;
+    
+    /* border: 2px solid black; */
+    margin:0.6rem;
+    box-shadow:  2px 2px 10px 1px rgba(0,0,0,0.75);
+}
+
+.cards > img{
+    width: 100%;
+    height:50% ;
+    object-fit: cover;
+}
+.links{
+    text-decoration: none;
+    color:darkblue;
+}
+.links:hover{
+    opacity: 0.8;
+}
+.search-container{
+    margin:0.5rem;
+}
+
+
+
+.shimmerCard{
+    width:16rem;
+    height: 40rem;
+   background-color: lightgray;
+   margin: 20px;
+}
+
+
+
+
+
+.restaurant-menu-data > img{
+width:20rem;
+height: 15rem;
+}
+
+
+
+.restaurant-menu{
+    display: flex;
+    padding: 1.3rem;
+    /* border:3px solid red; */
+    /* margin:1.2rem; */
+}
+
+.menu-items{
+    width: 50%;
+    background-color:lightcyan;
+    /* padding: 1rem; */
+    /* border: 2px solid red;/ */
+}
+
+.list{
+    list-style: none;
+    /* border: 2px solid red; */
+
+}
+.list >h1{
+    color:blueviolet;
+}
+.list > li{
+   
+    
+    margin:3px;
+    padding: 2px;
+    color:darkblue;
+    font-size: 0.8rem;
+    
+}
+
+.section{
+    cursor: pointer;
+    border :2px solid black;
+    margin:1rem;
+    padding:1rem;
+}
+
+.addItem{
+background-color: aqua;
+border: none;
+margin:0.5rem;
+    color:rgb(80, 47, 140);
+    
+}
+
+
+.orderItems{
+    display: flex;
+    flex-wrap: wrap;
+}
+
