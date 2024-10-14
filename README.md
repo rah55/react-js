@@ -5,6 +5,9 @@ To run the project we need to know about few points :-
 
 1. Allow CORS(cross origin ) because this will allow to fetch the swiggy api to our project.
 2. Install Parcel (bundlers) using [npm install parcel] and for developer machine use [npm install -D parcel].
+3. Install react using npm install react.
+4. Install react-dom using npm install react-dom.
+5. For run the server type [npx parcel index.html] it will start the project.
 
 
    About the project
