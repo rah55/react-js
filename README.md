@@ -2,7 +2,10 @@
 This repository contain food villa app project.
 
 To run the project we need to know about few points :-
+
 1. Allow CORS(cross origin ) because this will allow to fetch the swiggy api to our project.
+2. Install Parcel (bundlers) using [npm install parcel] and for developer machine use [npm install -D parcel].
+
 
    About the project
    1. This is project is about a food delivery app .In which we can select the restaurant at the home page and after that we select the menu item which will add into the cart .
